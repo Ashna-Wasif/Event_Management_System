@@ -1,5 +1,5 @@
 "# Event_Management_System" 
-# wELCOME TO "JSP-Tomcat-XAMPP Web Application"
+
 
 This is a dynamic JSP-based web application running on Tomcat and using XAMPP's MySQL for data management. It features role-based access for **users** and **admins**, with full CRUD operations and session management.
 
