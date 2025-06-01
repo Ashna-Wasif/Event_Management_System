@@ -1,0 +1,130 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EzyPzy Events</title>
+ <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;500&family=Kanit:wght@300&family=Lobster&display=swap" rel="stylesheet">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+       body{
+		    background-color: rgb(128, 128, 128);
+		    font-family: 'Kanit', sans-serif;
+	   }
+        footer {
+            background-color: #5d686d;
+            color: #fff;
+            text-align: center;
+            margin-top: auto;
+            padding: 20px;
+             font-family: 'Kanit', sans-serif; 
+        }
+
+        .navbar {
+            background-color: #fff; 
+             font-family: 'Kanit', sans-serif; 
+        }
+       .transition-effect {
+    transition: transform 0.3s ease-in-out; /* Smooth scale transition */
+}
+
+.transition-effect:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+    <a class="navbar-brand" href="./welcome_user.html">EzyPzy Events</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./welcome_user.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./form_user.html">Book Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./adminlogin.jsp">Login as Admin</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+
+
+
+  <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/bdaycake.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/hall.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/Tablee.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="text-bg-secondary p-3 transition-effect">
+                <h1 class="display-4"><strong>Planning</strong></h1>
+                <p>With over a wide range of experience, leave the spreadsheets, budget management, vendor outreach, mobile bidding software, and onsite event management to us.</p>
+                <h1 class="display-4"><strong>Design</strong></h1>
+                <p>From event storyboarding to marketing, our team will design your dream event from the ground up.</p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="text-bg-secondary p-3 transition-effect">
+                <h1 class="display-4"><strong>Production</strong></h1>
+                <p>Stage management is our forte. Working with our preferred production partners, we will ensure that every light, sound, and moment is perfectly on cue! Did we mention that scripting is also in our scope?</p>
+                <h1 class="display-4"><strong>Cultivation</strong></h1>
+                <p>You bring the contacts, and we will bring the solicitation and fulfillment management!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <footer>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="./welcome_user.html">Home</a></li>
+            <li class="list-inline-item"><a href="./events.html">Services</a></li>
+            <li class="list-inline-item"><a href="./about.html">About</a></li>
+        </ul>
+        <p> &copy;EzyPzy Events since 2013</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
